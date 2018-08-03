@@ -640,8 +640,6 @@ function toolchain(_buildDir, _libDir)
 		}
 		buildoptions {
 			"-Wunused-value",
-			"-fdata-sections",
-			"-ffunction-sections",
 			"-msse2",
 			"-Wunused-value",
 			"-Wundef",
